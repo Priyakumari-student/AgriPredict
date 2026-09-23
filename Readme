@@ -1,0 +1,72 @@
+# 🌾 AgriPredict – Agriculture Prediction System
+
+AgriPredict is a **machine learning-based web application** developed to provide agricultural predictions using farm, soil, weather, crop, irrigation, and market-related data.
+
+The application provides two main predictions:
+
+* 🌾 **Agricultural Production Prediction**
+* 💰 **Farm Profit Prediction**
+
+The project uses **Python, Scikit-learn, and Streamlit** to train machine learning models and provide an interactive interface where users can enter farm details and receive predictions.
+
+---
+
+## 🎯 Project Objective
+
+The main objective of AgriPredict is to demonstrate how **machine learning can be applied to agricultural data** to generate useful predictions.
+
+The system analyzes different agricultural factors and uses trained regression models to estimate production and profit.
+
+---
+
+## ✨ Features
+
+### 🌾 Production Prediction
+
+Predicts the expected agricultural production in tonnes using factors such as:
+
+* Farm area
+* Crop
+* State and district
+* Season
+* Rainfall
+* Temperature
+* Humidity
+* Soil pH
+* Soil moisture
+* Nitrogen, Phosphorus and Potassium
+* Irrigation method
+* Fertilizer and pesticide usage
+* Seed quality
+* Disease/Pest risk
+
+### 💰 Profit Prediction
+
+Estimates expected farm profit using:
+
+* Farm and crop information
+* Environmental conditions
+* Soil conditions
+* Yield and production
+* Market price
+* Total cost
+* Revenue
+* Water usage
+* Disease/Pest risk
+
+---
+
+## 🧠 Machine Learning
+
+Two separate regression models are used in the application.
+
+### Production Model
+
+* **Target:** `Production_Tonnes`
+* **Algorithm:** Gradient Boosting Regressor
+* **R² Score:** 0.9615
+
+### Profit Model
+
+* **Target:** `Profit_INR`
+* **Algorithm:** Linear Regressio
