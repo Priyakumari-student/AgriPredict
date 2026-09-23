@@ -1,72 +1,115 @@
-# 🌾 AgriPredict – Agriculture Prediction System
+# 🌱 AgriPredict – Agriculture Prediction Application
 
-AgriPredict is a **machine learning-based web application** developed to provide agricultural predictions using farm, soil, weather, crop, irrigation, and market-related data.
+AgriPredict is a **machine learning-based agriculture prediction application** designed to analyze agricultural data and provide predictions based on important factors such as rainfall, soil conditions, and other crop-related parameters.
 
-The application provides two main predictions:
+The project combines **data preprocessing, visualization, machine learning, and a user-friendly application interface** to demonstrate how AI can be applied in agriculture.
 
-* 🌾 **Agricultural Production Prediction**
-* 💰 **Farm Profit Prediction**
+## 🚀 Features
 
-The project uses **Python, Scikit-learn, and Streamlit** to train machine learning models and provide an interactive interface where users can enter farm details and receive predictions.
+* 📊 Agricultural data analysis
+* 🧹 Data preprocessing and cleaning
+* 📈 Data visualization
+* 🤖 Machine learning-based prediction
+* 🌧️ Analysis of rainfall and soil-related factors
+* 🖥️ User-friendly web application
+* 📁 Trained machine learning models
+* 📓 Jupyter Notebook for data analysis and model development
+
+## 🛠️ Technologies Used
+
+* **Python**
+* **Pandas** – Data manipulation and analysis
+* **NumPy** – Numerical computations
+* **Matplotlib / Seaborn** – Data visualization
+* **Scikit-learn** – Machine learning
+* **Streamlit** – Web application
+* **Jupyter Notebook** – Data preprocessing and experimentation
+
+## 📂 Project Structure
+
+```text
+Agriculture_Prediction_App/
+│
+├── app.py
+├── Agriculture_Prediction_App.ipynb
+├── models/
+│   └── trained model files
+├── dataset/
+│   └── agricultural dataset
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+## ⚙️ How to Run the Project
+
+### 1. Clone the repository
+
+```bash
+git clone <your-github-repository-url>
+cd Agriculture_Prediction_App
+```
+
+### 2. Create a virtual environment
+
+```bash
+python -m venv venv
+```
+
+### 3. Activate the virtual environment
+
+**Windows:**
+
+```bash
+venv\Scripts\activate
+```
+
+### 4. Install the required libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Run the application
+
+```bash
+streamlit run app.py
+```
+
+The application will open in your browser.
+
+## 📊 Machine Learning Workflow
+
+The project follows these main steps:
+
+1. **Data Collection**
+2. **Data Cleaning**
+3. **Exploratory Data Analysis**
+4. **Data Visualization**
+5. **Feature Selection**
+6. **Data Preprocessing**
+7. **Model Training**
+8. **Model Evaluation**
+9. **Prediction**
+10. **Web Application Development**
+
+## 🎯 Objective
+
+The main objective of AgriPredict is to demonstrate how **machine learning and data analytics can be used in agriculture** to analyze data and generate useful predictions.
+
+## 🔮 Future Enhancements
+
+* Improve prediction accuracy with larger datasets
+* Add more crop-related parameters
+* Add real-time agricultural data
+* Deploy the application online
+* Add more machine learning models
+* Provide additional agricultural insights
+
+## 👩‍💻 Author
+
+**Priya Kumari**
 
 ---
 
-## 🎯 Project Objective
-
-The main objective of AgriPredict is to demonstrate how **machine learning can be applied to agricultural data** to generate useful predictions.
-
-The system analyzes different agricultural factors and uses trained regression models to estimate production and profit.
-
----
-
-## ✨ Features
-
-### 🌾 Production Prediction
-
-Predicts the expected agricultural production in tonnes using factors such as:
-
-* Farm area
-* Crop
-* State and district
-* Season
-* Rainfall
-* Temperature
-* Humidity
-* Soil pH
-* Soil moisture
-* Nitrogen, Phosphorus and Potassium
-* Irrigation method
-* Fertilizer and pesticide usage
-* Seed quality
-* Disease/Pest risk
-
-### 💰 Profit Prediction
-
-Estimates expected farm profit using:
-
-* Farm and crop information
-* Environmental conditions
-* Soil conditions
-* Yield and production
-* Market price
-* Total cost
-* Revenue
-* Water usage
-* Disease/Pest risk
-
----
-
-## 🧠 Machine Learning
-
-Two separate regression models are used in the application.
-
-### Production Model
-
-* **Target:** `Production_Tonnes`
-* **Algorithm:** Gradient Boosting Regressor
-* **R² Score:** 0.9615
-
-### Profit Model
-
-* **Target:** `Profit_INR`
-* **Algorithm:** Linear Regressio
+⭐ If you find this project useful, consider giving the repository a star!
